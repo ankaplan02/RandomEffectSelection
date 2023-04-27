@@ -16,7 +16,7 @@ $$y_i = X_i \alpha + Z_i \Lambda \Gamma b_i + \epsilon_i$$
 
 where $\Lambda \times \Gamma \times b_i = \beta_i$, and $\Lambda$ is a diagonal matrix with entries $\lambda = (\lambda_1, \lambda_2,...,\lambda_{q_2})^T$ and $\Gamma$ is lower triangular with 
 diagonal entries equal to 1, and $q_{2}\times (q_{2}-1)/2$ lower triangular entries $\gamma_{ml}$ where $m = 2,...,q_{2}$ and $l = 1,...,q_{2}-1$. This reformulation has the key equality that 
-$D = \Lambda \Gamma \Gamma^T \Lambda$, so the on-outcome scale variability measured by the diagonal entries in $D$ and the correlations between the random effects by the off-diagonal entries in D can be obtained. 
+$D = \Lambda \Gamma \Gamma^T \Lambda$, so the on-outcome scale variability measured by the diagonal entries in $D$ and the correlations between the random effects by the off-diagonal entries in $D$ can be obtained. 
 
 The prior specifications are primarily conjugate priors and are as follows:
 
